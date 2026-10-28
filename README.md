@@ -1,17 +1,7 @@
-# ASCENSÃO + EVA
+# ASCENSÃO — pacote PWA para GitHub Pages
 
-Aplicativo pessoal de missões e progresso, com assistente de voz local e preparação para IA conversacional.
+Este pacote contém o site estático completo: index.html, sw.js, manifest.webmanifest, .nojekyll e icons/ com ícones PNG reais de 192 e 512 pixels.
 
-## Publicação
+Publique o conteúdo na raiz do repositório usando GitHub Pages. Leia INSTALAR_ANDROID.md.
 
-O frontend é um PWA estático. Para publicar, envie `index.html`, `manifest.webmanifest`, `sw.js` e a pasta `icons/` para a raiz do repositório. Em **Settings → Pages**, selecione **Deploy from a branch**, branch `main`, pasta `/(root)`.
-
-**Não publique o conteúdo de `server/.env` ou chaves da API OpenAI.** A pasta `server/` é apenas um exemplo de backend e não funciona no GitHub Pages.
-
-## Instalação Android
-
-Após publicar o GitHub Pages, abra o endereço HTTPS no Chrome e use o menu **Instalar aplicativo** ou **Adicionar à tela inicial**. O microfone requer permissão e não oferece escuta persistente em segundo plano nesta versão.
-
-## Progresso
-
-O progresso é salvo localmente por origem. Faça backup antes de trocar o endereço do aplicativo.
+O servidor de IA é **opcional** e está no pacote separado ASCENSAO_EVA_API_Exemplo.zip. Ele não deve ser publicado no GitHub Pages nem receber chave de API no repositório.
